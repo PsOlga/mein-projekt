@@ -36,31 +36,40 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
-  gap: 36px; /* Дополнительно: задайте промежутки между элементами */
-  height: 399px;
-  width: 100%;
-}
+  gap: 36px; 
 
-.going {
+}
+/* ========= обработка секций внутри дива =============== */
+.going-all {
 display: flex;
 align-items: center;
     /* justify-content: left; */
 }
+.eventDetails {
+    display: flex;
+}
+.ticket {
+    margin-left: 16px;
+}
 .date-div {
-display: flex;
-align-items: center;
-justify-content: left;
 margin-bottom: 12px;
+}
+.date {
+    margin-left: 6px;
 }
 .event img {
 margin-bottom: 12px;
 max-width: 100%;
 }
 .event h3 {
-
  margin-bottom: 8px;
 }
-
+.event-text p {
+    margin-left: 6px;
+}
+.event-text .remot {
+    margin-left: 0;
+}
 .event .remot {
 font-size: 14px;
 font-weight: 500;
@@ -69,6 +78,9 @@ margin-bottom: 8px;
 color: 
 rgba(112, 112, 112, 1);
 }
+
+
+
 
 @media (max-width: 1400px) {
 
