@@ -17,7 +17,25 @@
 margin-top: 24px;
 margin-bottom: 98px;
 
+
 }
+
+.button-pinck{
+    background-color: rgba(227, 35, 89, 1);
+    color: var(--color-white);
+	font-size: 16px;
+	padding: 8px 66px;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+
+}
+.button-pinck:hover {
+	background-color: rgb(254, 78, 128);
+}
+
 @media (max-width: 1400px) {
 	.container {
 		max-width: 95%;
@@ -124,7 +142,7 @@ margin-bottom: 98px;
     text-align: center;
     font-size: 34px;
 }
-.header-box-btn {
+.bicicleBtn {
     display: none;
 }
 }

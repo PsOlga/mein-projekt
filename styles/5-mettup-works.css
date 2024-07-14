@@ -1,0 +1,73 @@
+.meetupWorks h3{
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 24px;
+}
+.works {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+margin-bottom: 64px;
+
+}
+.work-lupa, .work-plus {
+    padding-top: 32px;
+    background-color: rgba(151, 202, 209, 0.08);
+    display: flex;
+    border-radius: 8px;
+
+}
+.work-lupa:hover, .work-plus:hover {
+    background-color: rgba(151, 202, 209, 0.1);
+}
+.work-plus  {
+    margin-left: 32px;
+}
+.lupaImg, .plusImg, .workContent{
+    margin-left: 24px;
+    padding-bottom: 24px;
+}
+.works-title {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.works-content {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.works-link-green {
+    font-size: 16px;
+    font-weight: 500;
+     color: rgba(0, 121, 138, 1);
+}
+
+
+@media (max-width: 1400px) {
+.meetupWorks {
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+@media (max-width: 1200px) {
+    .works {
+        display: flex;
+        flex-wrap: wrap; 
+        margin-left: 24px;
+    }
+    .work-lupa {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .work-plus {
+        width: 100%;
+        margin-left: 0;
+    }
+    .meetupWorks h3{
+        font-size: 20px;
+        margin-left: 24px;
+        }
+}
+

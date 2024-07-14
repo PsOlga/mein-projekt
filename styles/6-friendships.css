@@ -1,0 +1,95 @@
+.friendships {
+    margin-bottom: 64px;
+}
+.friendships-grid a:hover {
+    background-color: rgba(151, 202, 209, 0.2);
+    padding: 5px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+}
+
+.friendships-title h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.friendships-title p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    color: rgba(112, 112, 112, 1);
+}
+.friendships-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 36px;
+    margin-bottom: 64px;
+}
+.friendships-grid img {
+    height: 191.5px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.friendships-text {
+    font-size: 20px;
+    font-weight: 600;
+    width: 93%;
+}
+.friendships-content {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 16px;
+   
+}
+.friendships-green {
+    font-size: 16px;
+    font-weight: 500;
+     color: rgba(0, 121, 138, 1);
+     text-decoration: none; 
+}
+.friendships-green {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1400px) {
+.friendships {
+    max-width: 1156px; 
+    gap: 25px;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media (max-width: 992px) {
+    .friendships {
+        gap: 10px; 
+    }
+    .friendships-title h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+.friendships-title p {
+    display: none;
+}
+.friendships-grid {
+    grid-template-columns: 1fr;  
+    justify-items: center; /* Центрирование по горизонтали */
+}
+}
+
+@media (max-width: 576px) {
+    .friendships-title h3 {
+        font-size: 20px;
+    }
+}

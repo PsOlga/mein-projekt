@@ -1,3 +1,8 @@
+.grid-container {
+    margin-bottom: 80px;
+    width: 100%;
+}
+
 .heding-events {
     display: flex;
 	justify-content: space-between;
@@ -23,9 +28,7 @@
 .heding-events-recht a {
     font-weight: 500;
 }
-.date {
-   text-transform: uppercase; 
-}
+
 .online {
     display: none;
     
@@ -39,23 +42,31 @@
   gap: 36px; 
 
 }
+
 /* ========= обработка секций внутри дива =============== */
 .going-all {
 display: flex;
 align-items: center;
-    /* justify-content: left; */
+
+}
+.going {
+    display: flex;
 }
 .eventDetails {
     display: flex;
 }
 .ticket {
     margin-left: 16px;
+    display: flex;
 }
 .date-div {
 margin-bottom: 12px;
+display: flex;
 }
 .date {
-    margin-left: 6px;
+margin-left: 6px;
+text-transform: uppercase; 
+   
 }
 .event img {
 margin-bottom: 12px;
