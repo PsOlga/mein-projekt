@@ -14,11 +14,10 @@
 
 }
 .c-explore {
-
+width: 100%;
     border-radius: 8px;  
     margin-right: 16px;
     height: 112px;
-    width: 135px;
     display: grid; 
     place-items: center;  
     text-align: center;
@@ -34,10 +33,7 @@
     width: 72px;
 }
 .exploreAll {
-    display: flex;
-    justify-content:flex-start;
     align-items: center;
-    gap: 16px;
 }
 /* ========================= cities =================== */
 
@@ -62,21 +58,19 @@
 }
 
 @media (max-width: 1700px) {
-    .popularCities img {
+    .popularCities img{
         margin-left: 11px;
     }
 }
-
-
-
 @media (max-width: 1600px) {
 
-    .content-explore-popular {
+.content-explore-popular {
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 64px;
     }
-.miami {
-display: none;
+.miami {    
+    display: none;
 }
 .explore-popular h3 {
     margin-bottom: 24px;
@@ -85,11 +79,18 @@ display: none;
 }
 .subtitle {
     font-size: 12px;
- 
 }
-
 .cities {
-    flex: 1 1 auto;   
+    flex: 1;   
+}
+.exploreAll {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    /* margin-left: 50px; */
+}
+.c-explore {
+    text-align: center;
 }
 }
 @media (max-width: 1500px) {
@@ -106,9 +107,7 @@ display: none;
   grid-template-columns: repeat(2, 2fr);
  
 }
-.exploreAll 
 
-}
 @media (max-width: 1200px) {
     .exploreAll {
         display: grid;
@@ -130,29 +129,4 @@ display: none;
     }
 }
 
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 576px) {
-   
-}
-
-
-@media (max-width: 1200px) {
-
-
-
-}
-
-@media (max-width: 992px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 576px) {
-	
 }

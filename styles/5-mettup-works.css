@@ -13,11 +13,11 @@ margin-bottom: 64px;
     padding-top: 32px;
     background-color: rgba(151, 202, 209, 0.08);
     display: flex;
-    border-radius: 8px;
+border-radius: 8px;
 
 }
 .work-lupa:hover, .work-plus:hover {
-    background-color: rgba(151, 202, 209, 0.1);
+    background-color: rgba(151, 202, 209, 0.2);
 }
 .work-plus  {
     margin-left: 32px;
@@ -34,7 +34,7 @@ margin-bottom: 64px;
 .works-content {
     font-size: 16px;
     font-weight: 400;
-    margin-top: 40px;
+margin-top: 40px;
     margin-bottom: 16px;
 }
 .works-link-green {
