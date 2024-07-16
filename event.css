@@ -1,0 +1,105 @@
+
+body {
+    position: relative;
+}
+
+.events-select h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 81px;
+    margin-bottom: 16px;
+}
+.events-select a {
+    color: var(--color-btn-blue);
+    border-bottom: 3px solid var(--color-btn-blue);
+    text-decoration: none;
+}
+.events-select a:hover {
+    color: rgb(3, 166, 188);
+    text-decoration: none;
+}
+.events-select-container {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 56px;
+}
+select {
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 40px;
+    margin-right: 17.44px;
+    border: none;
+    background-color: rgba(246, 247, 248, 1);
+    cursor: pointer;
+    width: fit-content;
+}
+select:hover {
+    background-color: #dcdcdc;
+}
+/* ====================== maps =================== */
+.maps {
+    position: absolute;
+    top: 203px; /* Отступ сверху */
+    right: 133px; /* Отступ справа */
+    width: 350px;
+    height: 285px;
+  
+}
+.modalWindow {
+    background-image: url(./imgs-event.html/map-thumbnail.png.png);
+    width: 350px;
+    height: 285px;
+    width: clamp(250px, 100%, 350px);
+    position: relative;
+}
+.maps span{
+    background-color: #fff;
+    border: 2px solid var(--color-btn-blue);
+   border-radius: 8px;
+   color: var(--color-btn-blue);
+   padding: 8px 8px 12.5px 24px;  
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+}
+
+.closeBtn{
+    position: absolute;
+    top: 11px;
+    right: 15px; 
+    border: none;
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+	
+} 

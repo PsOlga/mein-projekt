@@ -6,6 +6,8 @@
     padding: 5px;
     border-radius: 8px;
     padding-bottom: 5px;
+    text-decoration: none;
+  
 }
 
 .friendships-title h3 {
@@ -49,9 +51,6 @@
     font-weight: 500;
      color: rgba(0, 121, 138, 1);
      text-decoration: none; 
-}
-.friendships-green {
-    text-decoration: underline;
 }
 
 
