@@ -1,21 +1,37 @@
-.headerBox {
+.hendeBox {
     width: 100%;
     margin-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.headerBox h2 {
+.hende-box-left h2 {
     font-size: 42px;
     font-weight: bold;
     text-align: left;
     padding-bottom: 24px;
 }
-.header-box-btn {
-margin-top: 24px;
-margin-bottom: 98px;
+.hende-box-btn {
+    margin-top: 24px;
+    margin-bottom: 98px;
 }
-
+.button-pinck{
+    background-color: rgba(227, 35, 89, 1);
+    color: var(--color-white);
+	font-size: 16px;
+	padding: 8px 66px;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.button-pinck:hover {
+	background-color: rgb(254, 78, 128);
+}
+.hende-smoll {
+    display: none;
+}
 
 @media (max-width: 1400px) {
 	.container {
@@ -33,17 +49,28 @@ margin-bottom: 98px;
 	.container {
 		max-width: 95%;
 	}
+    .hende-box-left h2 {
+   
+    }
+    .hende-box-rigt {
+        display: none;
+    }
+    .hende-smoll {
+        display: inline;
+        max-width: 238px;
+        max-height: 137px;
+      
+    }
+ 
 }
 
 @media (max-width: 768px) {
 	.container {
 		max-width: 95%;
 	}
-
 	.btn_see_all {
 		display: none;
 	}
-
 	h3 {
 		font-size: 24px;
 	}
@@ -108,14 +135,14 @@ margin-bottom: 98px;
 }
 
 @media (max-width: 992px) {
-.headerBox {
+.hendeBox {
     width: 100%;
     flex-direction: column;
     margin-top: 50px;
     row-gap: 24px;
     text-align: center;
 }
-.headerBox h2{
+.hendeBox h2{
     text-align: center;
     font-size: 34px;
 }
@@ -125,33 +152,33 @@ margin-bottom: 98px;
 }
 
 @media (max-width: 768px) {
-.header-box-left {
+.hende-box-left {
     min-width: 750px;
 }
-.headerBox h2 {
+.hendeBox h2 {
     max-width: 100%;
     overflow-wrap: break-word;
 }
 }
 
 @media (max-width: 576px) {
-	.headerBox {
+	.hendeBox {
         text-align: center;
         margin-top: 15px;
 
     }
-    .headerBox p {
+    .hendeBox p {
         font-size: 14px;
     }
-    .headerBox h2 {
+    .hendeBox h2 {
         font-size: 30px;
         text-align: center;
     }
-    .header-box-left {
+    .hende-box-left {
         min-width: 400px;
         padding: 15px;
     }
-    .header-box-right img {
+    .hende-box-right img {
         width: 80%;
     }
 }

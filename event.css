@@ -40,7 +40,7 @@ select:hover {
 /* ====================== maps =================== */
 .maps {
     position: absolute;
-    top: 203px; /* Отступ сверху */
+    top: 130px; /* Отступ сверху */
     right: 133px; /* Отступ справа */
     width: 350px;
     height: 285px;
@@ -73,12 +73,46 @@ select:hover {
     width: 15px;
     height: 15px;
 }
+/* ================= page-2-grid ========== */
+.grid-information {
+    display: flex;
+    border-top: 2px solid  rgba(217, 217, 217, 1);
+    padding-top: 16px;
+}
+/* .events-select {
+	max-width: 1181px;
+	padding: 0 15px;
+	margin: 0 auto;
+	min-width: 364px;
+} */
+.event-data {
+    font-size: 14px;
+    color:rgba(124, 111, 80, 1);
+    margin-bottom: 8px;
+}
+.event-title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
 
+.topic {
+    font-size: 12px;
+    font-weight: 500;
+    height: 26px;
+    margin-bottom: 8px;
+    color:  rgba(112, 112, 112, 1);
 
+}
+.div-inform {
+    margin-left: 12px;
+}
+.attendees {
+    color: rgba(112, 112, 112, 1);
+    font-size: 14px;
+    font-weight: 400;
 
-
-
-
+}
 
 
 
@@ -86,14 +120,25 @@ select:hover {
 
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 1100px) {
+    .maps {
+        top: 130px; /* Отступ сверху */
+        right: 50px; /* Отступ справа */
+        width: 250px;
+        height: 185px;
+      
+    }
 
 
 }
 
 @media (max-width: 992px) {
-
+    .maps {
+   display: none;
+      }
+      .attendees {
+        display: none;
+      }
 }
 
 @media (max-width: 768px) {

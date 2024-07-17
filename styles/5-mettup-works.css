@@ -1,19 +1,19 @@
-.meetupWorks h3{
-font-size: 28px;
-font-weight: 600;
-margin-bottom: 24px;
+.meetupWorks h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 24px;
 }
 .works {
     display: grid;
     grid-template-columns: 1fr 1fr;
-margin-bottom: 64px;
+    margin-bottom: 64px;
 
 }
 .work-lupa, .work-plus {
     padding-top: 32px;
     background-color: rgba(151, 202, 209, 0.08);
     display: flex;
-border-radius: 8px;
+    border-radius: 8px;
 
 }
 .work-lupa:hover, .work-plus:hover {
