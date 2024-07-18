@@ -4,15 +4,18 @@ footer {
     background-color:rgba(33, 33, 33, 1);
  
 }
+.footer-container {
+    max-width: 1029px;
+}
 .footer-head{
     display: flex;
 }
 
 .footer-head p {
     color: white;
-font-size: 16px;
-font-weight: 500;
-margin-top: 34px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 34px;
 }
 .footer-head a {
     width: 119px;

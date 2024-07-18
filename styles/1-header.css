@@ -4,6 +4,7 @@
 	align-items: center;
 	margin: 15px;
 	column-gap: 20px;
+	max-width: 1920px;
 }
 
 .header-logo {
@@ -119,10 +120,6 @@ a:hover {
 	opacity: 80%;
 }
 
-
-@media (max-width: 1400px) {
-
-}
 
 @media (max-width: 1200px) {
 

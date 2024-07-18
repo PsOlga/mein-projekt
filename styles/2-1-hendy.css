@@ -11,10 +11,15 @@
     text-align: left;
     padding-bottom: 24px;
 }
+.hende-box-left p {
+    text-align: left;
+}
 .hende-box-btn {
     margin-top: 24px;
     margin-bottom: 98px;
+  
 }
+
 .button-pinck{
     background-color: rgba(227, 35, 89, 1);
     color: var(--color-white);
@@ -25,13 +30,16 @@
 	text-decoration: none;
 	cursor: pointer;
 	white-space: nowrap;
+
 }
 .button-pinck:hover {
 	background-color: rgb(254, 78, 128);
 }
 .hende-smoll {
     display: none;
+    text-align: center;
 }
+
 
 @media (max-width: 1400px) {
 	.container {
@@ -49,9 +57,6 @@
 	.container {
 		max-width: 95%;
 	}
-    .hende-box-left h2 {
-   
-    }
     .hende-box-rigt {
         display: none;
     }
@@ -59,20 +64,26 @@
         display: inline;
         max-width: 238px;
         max-height: 137px;
-      
+        margin-bottom: 100px;
     }
- 
+    .hende-box-left h2 {
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 0;
+       
+    }
+    .hendeBox {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+        row-gap: 24px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
 	.container {
 		max-width: 95%;
-	}
-	.btn_see_all {
-		display: none;
-	}
-	h3 {
-		font-size: 24px;
 	}
 }
 
@@ -80,105 +91,17 @@
 	.container {
 		max-width: 95%;
 	}
-
+    .hende-box-left h2 {
+        font-size: 20px;
+       
+    }
+    .hende-smoll {
+        margin-bottom: 30px;
+    }
 	.button {
 		width: 80%;
 		font-size: 14px;
 	}
 
-	.info-items li:nth-child(4) {
-		display: none;
-	}
-
-	.info-items li:nth-child(3) {
-		order: -1;
-		color: #7C6F50;
-		font-size: 10px;
-	}
-
-	.info-items li:nth-child(3) img {
-		display: none;
-	}
-
-	.info-items li:nth-child(2) {
-		display: none;
-	}
-
-	.online-camera-small {
-		margin-top: 6px;
-		display: flex;
-		gap: 3px;
-	}
-
-	.hidden-small {
-		display: none;
-	}
-
-	.small-title {
-		font-size: 20px;
-		text-align: left;
-		display: block;
-	}
-
-	.big-title {
-		display: none;
-	}
 }
 
-
-@media (max-width: 1400px) {
-
-}
-
-@media (max-width: 1200px) {
-
-}
-
-@media (max-width: 992px) {
-.hendeBox {
-    width: 100%;
-    flex-direction: column;
-    margin-top: 50px;
-    row-gap: 24px;
-    text-align: center;
-}
-.hendeBox h2{
-    text-align: center;
-    font-size: 34px;
-}
-.bicicleBtn {
-    display: none;
-}
-}
-
-@media (max-width: 768px) {
-.hende-box-left {
-    min-width: 750px;
-}
-.hendeBox h2 {
-    max-width: 100%;
-    overflow-wrap: break-word;
-}
-}
-
-@media (max-width: 576px) {
-	.hendeBox {
-        text-align: center;
-        margin-top: 15px;
-
-    }
-    .hendeBox p {
-        font-size: 14px;
-    }
-    .hendeBox h2 {
-        font-size: 30px;
-        text-align: center;
-    }
-    .hende-box-left {
-        min-width: 400px;
-        padding: 15px;
-    }
-    .hende-box-right img {
-        width: 80%;
-    }
-}

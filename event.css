@@ -2,7 +2,9 @@
 body {
     position: relative;
 }
-
+.header {
+    max-width: 1920px;
+}
 .events-select h3 {
     font-size: 28px;
     font-weight: 600;
@@ -74,6 +76,10 @@ select:hover {
     height: 15px;
 }
 /* ================= page-2-grid ========== */
+.page-2-grid {
+    margin-bottom: 100px;
+}
+
 .grid-information {
     display: flex;
     border-top: 2px solid  rgba(217, 217, 217, 1);
@@ -113,7 +119,9 @@ select:hover {
     font-weight: 400;
 
 }
-
+.footer{
+    max-width: 1920px;
+}
 
 
 @media (max-width: 1400px) {
@@ -139,6 +147,10 @@ select:hover {
       .attendees {
         display: none;
       }
+      .page-2-grid {
+        margin-bottom: 68px;
+    }
+  
 }
 
 @media (max-width: 768px) {
