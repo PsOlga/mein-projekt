@@ -17,6 +17,12 @@ margin-bottom: 98px;
 }
 
 
+@media (max-width: 1400px) {
+    .headerBox h2 {
+        font-size: 36px;
+    }
+}
+
 @media (max-width: 992px) {
 .headerBox {
     width: 100%;
@@ -27,7 +33,7 @@ margin-bottom: 98px;
 }
 .headerBox h2{
     text-align: center;
-    font-size: 34px;
+    font-size: 25px;
 }
 .bicicleBtn {
     display: none;
@@ -54,7 +60,6 @@ margin-bottom: 98px;
         font-size: 14px;
     }
     .headerBox h2 {
-        font-size: 30px;
         text-align: center;
     }
     .header-box-left {

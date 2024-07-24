@@ -1,162 +1,331 @@
 
-body {
-    position: relative;
-}
-.header {
-    max-width: 1920px;
-}
-.events-select h3 {
-    font-size: 28px;
-    font-weight: 600;
-    margin-top: 81px;
-    margin-bottom: 16px;
-}
-.events-select a {
-    color: var(--color-btn-blue);
-    border-bottom: 3px solid var(--color-btn-blue);
-    text-decoration: none;
-}
-.events-select a:hover {
-    color: rgb(3, 166, 188);
-    text-decoration: none;
-}
-.events-select-container {
-    display: flex;
-    margin-top: 12px;
-    margin-bottom: 56px;
-}
-select {
-    padding: 16px;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 40px;
-    margin-right: 17.44px;
-    border: none;
-    background-color: rgba(246, 247, 248, 1);
-    cursor: pointer;
-    width: fit-content;
-}
-select:hover {
-    background-color: #dcdcdc;
-}
-/* ====================== maps =================== */
-.maps {
-    position: absolute;
-    top: 130px; /* Отступ сверху */
-    right: 133px; /* Отступ справа */
-    width: 350px;
-    height: 285px;
+
+.right-text a {
+    font-size: 17px;
+    color: rgba(0, 121, 138, 1);
+  }
   
-}
-.modalWindow {
-    background-image: url(./imgs-event.html/map-thumbnail.png.png);
-    width: 350px;
-    height: 285px;
-    width: clamp(250px, 100%, 350px);
-    position: relative;
-}
-.maps span{
-    background-color: #fff;
-    border: 2px solid var(--color-btn-blue);
-   border-radius: 8px;
-   color: var(--color-btn-blue);
-   padding: 8px 8px 12.5px 24px;  
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%); 
-}
-
-.closeBtn{
-    position: absolute;
-    top: 11px;
-    right: 15px; 
-    border: none;
-    width: 15px;
-    height: 15px;
-}
-/* ================= page-2-grid ========== */
-.page-2-grid {
-    margin-bottom: 100px;
-}
-
-.grid-information {
+  .right-text a:hover {
+    color: rgb(10, 219, 247);
+  }
+  
+  
+  .event-text1 {
     display: flex;
-    border-top: 2px solid  rgba(217, 217, 217, 1);
-    padding-top: 16px;
-}
-/* .events-select {
-	max-width: 1181px;
-	padding: 0 15px;
-	margin: 0 auto;
-	min-width: 364px;
-} */
-.event-data {
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+  }
+  
+  .left-text h2 {
+    font-size: 28px;
+   
+  }
+  .left-text {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 11.67px 11.99px 8.33px 12px;
+    border-radius: 8px 0px 0px 0px;
+    border: none;
+    font-size: 20px;
+    gap: 20px;
+  }
+  .left-text a {
+    display: flex;
+    align-items: center;
+    background-color: rgba(151, 202, 209, 0.12);
+    padding: 11.67px 11.99px 8.33px 12px;
+    border-radius: 8px;
+    margin-left: 8px;
+    gap: 20px;
+    color: rgba(0, 121, 138, 1);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .left-text a:hover {
+    color: rgb(6, 201, 227);
+  }
+  
+  .events-grids-room {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Три карточки в строке */
+    gap: 36px;
+    margin-top: 36px;
+  }
+  .card-grids h3 {
+    margin-top: 12px;
+    font-size: 20px;
+    margin-right: 20%;
+  }
+  .card-grids h3:hover {
+    text-decoration: underline;
+  }
+  .card-grids p {
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-size: 14px;
-    color:rgba(124, 111, 80, 1);
-    margin-bottom: 8px;
-}
-.event-title {
-    margin-bottom: 8px;
-    font-size: 16px;
-    font-weight: 500;
-}
+  }
+  .card-grids img.card-grids__main-img {
+    width: 100%;
+    height: 153px;
+    object-fit: cover;
+  }
+  
+  .card-grids img {
+    border-radius: 8px;
+  }
+  .date2 {
+    font-size: 14px;
+  }
+  .grid-info .date2 img {
+    margin-top: 8px;
+    margin-bottom: -4px;
+    margin-right: 6px;
+  }
+  
+  .span-data {
+    margin-top: 8px;
 
-.topic {
-    font-size: 12px;
+    
+  }
+  .going img {
+    margin-bottom: -4px;
+    margin-right: 6px;
+  }
+  
+  .span-data .free{
+  margin-left: 16px; 
+  }
+  .free svg{
+   margin-top: 8px;
+   margin-right: 4px; 
+   margin-bottom: -1px; 
+  }
+  .image-all-online {
+    position: relative;
+  
+  }
+  .online1 {
+  position: absolute;
+  top:7px;
+  left:6px;
+  border-radius:none;
+  }
+  .online2{
+    position: relative;
+    right: 2px;
+    width: 64px;
+    height: 12.16px;
+    order: 3;
+    display: none;
+  }
+  
+  @media (max-width: 1400px) {
+    .events-container {
+      max-width: 1156px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .events-grids-room {
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .events-grids-room {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .card-grids__main-img {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .events-grids-room {
+      grid-template-columns: 1fr;
+      /* width: 100%;
+       */
+    }
+  
+  .online2{
+    display: block;
+  }
+   
+    .events-grids-room a {
+      display: flex;
+      border-top: 1px solid rgba(217, 217, 217, 1);
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .events-grids-room h3 {
+      order: 1;
+      width: 100%;
+      display: flex;
+      font-size: 18px;
+    }
+    .right-text{
+      display: none;
+    }
+    .grid-info {
+      display: flex;
+      flex-direction: column;
+      width: 300%;
+    }
+    .grid-info p {
+      order: 2;
+      font-size: 14px;
+      color:rgba(124, 111, 80, 1) ;
+    }
+  
+  .card-grids__main-img .grid-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .events-grids-room .date2 img {
+    display: none;
+  }
+  .events-grids-room .span-data {
+    display: none;
+    
+    
+  } 
+  .left-text h2{
+    font-size: 20px;
+  }
+  
+  .online1 {
+    display: none;
+  }
+  .events-grids-room a h3 {
+    order: 1;
+    width: 100%;
+    font-size: 9.81px;
     font-weight: 500;
-    height: 26px;
-    margin-bottom: 8px;
-    color:  rgba(112, 112, 112, 1);
-
-}
-.div-inform {
-    margin-left: 12px;
-}
-.attendees {
+    line-height: 14.71px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 2px;
+  
+  }
+  
+  .events-grids-room .date2 {
+    order: 0;
+    display: flex;
+    align-items: center;
+    font-size: 8.58px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 6px;
+    color: rgba(124, 111, 80, 1);
+  
+  }
+  .grid-info {
+    display: flex;
+    flex-direction: column;
+    width: 300%;
+  }
+  
+  .events-grids-room p {
+    order: 2;
     color: rgba(112, 112, 112, 1);
-    font-size: 14px;
+    font-size: 8.58px;
     font-weight: 400;
-
-}
-.footer{
-    max-width: 1920px;
-}
-
-
-@media (max-width: 1400px) {
-
-}
-
-@media (max-width: 1100px) {
-    .maps {
-        top: 130px; /* Отступ сверху */
-        right: 50px; /* Отступ справа */
-        width: 250px;
-        height: 185px;
+    line-height: 12.26px;
+    text-align: left;
+  }
+  .card-grids img.card-grids__main-img {
+    width: 97px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+  .events-grids-room .date2 img {
+  display: none;
+  }
+  .events-grids-room .span-data {
+  display: none;
+  }
+  .left-text a{
+  font-size: 13.71px;
+  }
+  }
+  
+  
+  @media (max-width: 576px) {
+    .events-grids-room {
+      grid-template-columns: 1fr;
+    }
+  
+    .left-text h2 {
+      font-size: 20px;
+      line-height: 24.67px;
+      white-space: nowrap;
       
     }
-
-
-}
-
-@media (max-width: 992px) {
-    .maps {
-   display: none;
-      }
-      .attendees {
-        display: none;
-      }
-      .page-2-grid {
-        margin-bottom: 68px;
+    .online1 {
+      display: none;
     }
   
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 576px) {
-	
-} 
+    .events-grids-room a h3 {
+      order: 1;
+      width: 100%;
+      font-size: 9.81px;
+      font-weight: 500;
+      line-height: 14.71px;
+      text-align: left;
+      margin-top: 4px;
+      margin-bottom: 2px;
+    
+    }
+    
+    .events-grids-room .date2 {
+      order: 0;
+      display: flex;
+      align-items: center;
+      font-size: 8.58px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-top: 6px;
+      color: rgba(124, 111, 80, 1);
+    
+    }
+    .grid-info {
+      display: flex;
+      flex-direction: column;
+      width: 300%;
+    }
+  
+    .events-grids-room p {
+      order: 2;
+      color: rgba(112, 112, 112, 1);
+      font-size: 8.58px;
+      font-weight: 400;
+      line-height: 12.26px;
+      text-align: left;
+    }
+    .card-grids img.card-grids__main-img {
+      width: 97px;
+      height: 55px;
+      object-fit: cover;
+      border-radius: 3px;
+    }
+    .events-grids-room .date2 img {
+    display: none;
+  }
+  .events-grids-room .span-data {
+    display: none;
+  }
+  .left-text a{
+    font-size: 13.71px;
+  }
+  }
+  
+  

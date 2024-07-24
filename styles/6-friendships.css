@@ -52,29 +52,28 @@
      color: rgba(0, 121, 138, 1);
      text-decoration: none; 
 }
-
+@media (max-width: 1600px) {
+    .friendships-title h3 {
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 1400px) {
 .friendships {
     max-width: 1156px; 
     gap: 25px;
 }
-
+.friendships-title h3 {
+    font-size: 20px;
+}
 }
 
-@media (max-width: 1200px) {
-
-
-
-}
 
 @media (max-width: 992px) {
     .friendships {
         gap: 10px; 
     }
-    .friendships-title h3 {
-        font-size: 28px;
-    }
+
 }
 
 @media (max-width: 768px) {

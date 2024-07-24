@@ -1,11 +1,17 @@
 
-
 footer {
     background-color:rgba(33, 33, 33, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
  
 }
-.footer-container {
-    max-width: 1029px;
+.container {
+    max-width: 1512px;
+
+}
+.footer-index{
+    width: 100%;
 }
 .footer-head{
     display: flex;
@@ -43,15 +49,13 @@ footer {
     margin-bottom: 7px;
 }
 .nav p {
-font-size: 16px;
+    font-size: 16px;
 }
 .nav {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
-
-
 
 .followUsContainer {
     display: flex;
@@ -88,7 +92,7 @@ font-size: 16px;
 
 @media (max-width: 700px) {
 .linc-google a {
-display: none;
+    display: none;
 }
 .bottom a {
     display: none;

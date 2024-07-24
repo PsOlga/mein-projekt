@@ -34,7 +34,7 @@
 .works-content {
     font-size: 16px;
     font-weight: 400;
-margin-top: 40px;
+    margin-top: 40px;
     margin-bottom: 16px;
 }
 .works-link-green {
@@ -43,12 +43,25 @@ margin-top: 40px;
      color: rgba(0, 121, 138, 1);
 }
 
+@media (max-width: 1600px) {
+    .meetupWorks {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 24px;
+    }
+    .explore-popular h3 {
+        font-size: 24px;
+    }
+}
 
 @media (max-width: 1400px) {
 .meetupWorks {
     display: flex;
     flex-wrap: wrap;
 }
+.meetupWorks h3{
+    font-size: 20px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -65,9 +78,6 @@ margin-top: 40px;
         width: 100%;
         margin-left: 0;
     }
-    .meetupWorks h3{
-        font-size: 20px;
-        margin-left: 24px;
-        }
+   
 }
 

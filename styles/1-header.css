@@ -4,64 +4,51 @@
 	align-items: center;
 	margin: 15px;
 	column-gap: 20px;
-	max-width: 1920px;
 }
-
 .header-logo {
 	width: 118px;
 	height: auto;
 	margin-right: 30px;
 }
-
 .head-input input {
 	margin: 0;
 	display: inline-flex;
 	align-items: center;
 }
-
 .header-logo-small {
 	width: 100px;
 	display: none;
 }
-
 .btn-header {
 	margin-right: 15px;
 }
-
 .header-logo:hover {
 	transform: scale(1.1);
 }
-
 .leftside-head {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.links-right {
+} 
+ .links-right {
 	display: flex;
 	column-gap: 20px;
 }
-
 .leftside-head input {
 	width: 300px;
 }
-
 .rightside-head {
 	display: flex;
 	column-gap: 20px;
 }
-
 .rightside-head a {
 	display: flex;
 	align-items: center;
 }
-
 a {
 	text-decoration: none;
 	color: var(--color-dark);
 }
-
 a:hover {
 	color: var(--color-darkgrey);
 	text-decoration: underline;
