@@ -19,11 +19,11 @@
   align-items: center;
 }
 .heding-events a {
-    color: rgba(0, 121, 138, 1);
+    color: rgb(57, 191, 209);
     font-weight: 600;
 }
 .heding-events a:hover {
-    color: rgb(5, 159, 179);
+    color: rgb(57, 191, 209);
 }
 .heding-events-recht a {
     font-weight: 500;
@@ -41,7 +41,14 @@
   gap: 36px; 
 
 }
-
+.event {
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+.event:hover {
+    background-color: rgba(149, 218, 225, 0.2);
+   
+}
 /* ========= обработка секций внутри дива =============== */
 .going-all {
 display: flex;
@@ -50,13 +57,16 @@ align-items: center;
 }
 .going {
     display: flex;
+ 
 }
 .eventDetails {
     display: flex;
+  
 }
 .ticket {
     margin-left: 16px;
     display: flex;
+    align-items: center;
 }
 .date-div {
 margin-bottom: 12px;
@@ -68,7 +78,6 @@ text-transform: uppercase;
    
 }
 .event img {
-margin-bottom: 12px;
 max-width: 100%;
 }
 .event h3 {

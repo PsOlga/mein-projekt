@@ -26,7 +26,7 @@ function createEvent(arr) {
       const onlineEventImage = createDomElement({
         tag: "img",
         className: "events-all-online",
-        src: "./image-events-filter/online-event.svg",
+        src: "./Event-grid/camera.svg.svg",
         alt: "online event",
       })
       eventDetails.append(onlineEventImage)

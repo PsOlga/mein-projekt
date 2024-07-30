@@ -1,9 +1,16 @@
+
 .hendeBox {
     width: 100%;
     margin-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+    padding: 10px;
+}
+.hendeBox:hover {
+    background-color: rgba(217, 241, 241, 0.8);
 }
 .hende-box-left h2 {
     font-size: 42px;
